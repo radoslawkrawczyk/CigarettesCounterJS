@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.cgrts" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Cgrts</name>
+    <description>
+        A Cigarette Counter
+    </description>
+    <author email="pan.nikczemny@gmail.com" href="http://github.com/radoslawkrawczyk">
+        radoslawkrawczyk
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

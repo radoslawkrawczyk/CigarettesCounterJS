@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cigarettes Counter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Today:</h1>
+        <h2 id="todayCounter">0</h2>
+        <a href="#" id="addCigarette"><img src="img/cigarette.png" alt="+"></a>
+        <a href="#" id="delCigarette"><img src="img/del.png" alt="–"></a>
+        <p style="margin-top: 30px;"><strong>Last cigarette:</strong> <span id="lastCigarette">0</span></p>
+
+        <footer>
+            <ul>
+                <li><a href="#" id="showYesterday"><img src="img/day.png" alt="Yesterday"></a></li>
+                <li><a href="#" id="showWeekly"><img src="img/week.png" alt="Weekly"></a></li>
+
+                <li><a href="#" id="showOverall"><img src="img/overall.png" alt="Overall"></a></li>
+            </ul>
+            <p><a href="#" id="clearData"><img src="img/del_perm.png" alt="Erase data"></a></p>
+        </footer>
+    </div>
+
+    <script src="js/main.js">
+
+    </script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>
